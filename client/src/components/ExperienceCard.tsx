@@ -17,9 +17,7 @@ export default function ExperienceCard({
   description,
   image,
   price,
-  duration,
   location,
-  isFeatured = false,
 }: ExperienceCardProps) {
   const navigate = useNavigate();
 
