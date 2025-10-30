@@ -124,7 +124,7 @@ export const createBooking = async (req: Request, res: Response): Promise<void> 
     }
 
     // Find the specific slot
-    const slot = experience.slots.id(slotId);
+    const slot = experience.slots.find(s => s._id.toString() === slotId);
     
     if (!slot) {
       res.status(404).json({
