@@ -4,6 +4,15 @@
   # 🎫 BookIt
   
   ### Your Gateway to Unforgettable Experiences
+<div align="center">
+  
+  ### 🌐 Live Demo
+  
+  [![Visit Live Site](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://bookit-experiences.vercel.app)
+  
+  **Experience BookIt in action! Click above to visit the live deployment.**
+  
+</div>
   
   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -64,21 +73,9 @@ BookIt is a comprehensive travel experience booking platform that allows users t
 - Secure payment flow
 - Booking confirmation page
 
-### For Administrators
-
-#### 📊 Experience Management
-- Add/edit/delete experiences
-- Manage time slots and availability
-- Set pricing and capacity
-- Upload images and descriptions
-
 #### 🎫 Promo Code Management
 - Create percentage or fixed-amount discounts
-- Set expiration dates
-- Enable/disable codes
-- Track usage
 
----
 
 ## 🎬 Demo
 
@@ -179,7 +176,6 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone https://github.com/yourusername/bookit.git
 cd bookit
-cd "BOOKIT Again"
 ```
 
 ### Step 2: Backend Setup
@@ -481,29 +477,11 @@ npm test
 
 ## 🚀 Deployment
 
-### Production Build
-
-#### Backend
-```bash
-cd server
-npm install --production
-npm start
-```
-
-#### Frontend
-```bash
-cd client
-npm run build
-# Deploy the 'dist' folder to your hosting service
-```
-
 ### Deployment Platforms
 
-**Recommended Hosting Options:**
-
-- **Frontend:** Vercel, Netlify, AWS S3 + CloudFront
-- **Backend:** Heroku, Railway, AWS EC2, DigitalOcean
-- **Database:** MongoDB Atlas, AWS DocumentDB
+- **Frontend:** Vercel
+- **Backend:** Render
+- **Database:** MongoDB Atlas
 
 ### Environment Setup for Production
 
@@ -545,7 +523,7 @@ npm run build
 
 ## 🌟 Future Plans
 
-### Phase 1: Enhanced Features (Q1 2025)
+### Phase 1: Enhanced Features
 - [ ] **Payment Integration** - Stripe/Razorpay for real payments
 - [ ] **Email Notifications** - Booking confirmations and reminders
 - [ ] **SMS Notifications** - Booking updates via SMS
@@ -554,7 +532,7 @@ npm run build
 - [ ] **Advanced Search** - Filter by date, price range, category
 - [ ] **Multi-language Support** - i18n implementation
 
-### Phase 2: Admin Dashboard (Q2 2025)
+### Phase 2: Admin Dashboard
 - [ ] **Admin Panel** - Comprehensive admin dashboard
 - [ ] **Analytics** - Booking statistics and revenue reports
 - [ ] **User Management** - View and manage users
@@ -562,29 +540,9 @@ npm run build
 - [ ] **Promo Code Analytics** - Track promo code usage
 - [ ] **Booking Management** - View and manage all bookings
 
-### Phase 3: Advanced Features (Q3 2025)
-- [ ] **Real-time Chat** - Customer support chat
-- [ ] **Push Notifications** - Browser push notifications
-- [ ] **Social Login** - Google, Facebook authentication
-- [ ] **Referral System** - Refer friends and earn rewards
-- [ ] **Loyalty Program** - Points and rewards system
-- [ ] **Gift Cards** - Purchase and redeem gift cards
-- [ ] **Group Bookings** - Special pricing for groups
-
-### Phase 4: Mobile & Scaling (Q4 2025)
-- [ ] **Mobile Apps** - React Native iOS/Android apps
-- [ ] **Progressive Web App** - Offline support
-- [ ] **Microservices** - Split into microservices architecture
-- [ ] **Caching** - Redis for improved performance
-- [ ] **CDN Integration** - Faster asset delivery
-- [ ] **Load Balancing** - Handle high traffic
-- [ ] **API Rate Limiting** - Prevent abuse
-
-### Phase 5: AI & Personalization (2026)
+### Phase 3: AI & Personalization
 - [ ] **AI Recommendations** - Personalized experience suggestions
 - [ ] **Chatbot** - AI-powered customer support
-- [ ] **Dynamic Pricing** - AI-based pricing optimization
-- [ ] **Fraud Detection** - ML-based fraud prevention
 - [ ] **Predictive Analytics** - Forecast demand and trends
 
 ---
@@ -620,18 +578,13 @@ We welcome contributions! Here's how you can help:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 👥 Authors
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@brijeshpatel49](https://github.com/brijeshpatel49)
+- LinkedIn: [Brijesh Patel](https://linkedin.com/in/brijesh-patel-b1195b288)
+- Email: brijeshp3349@gmail.com
 
 ---
 
@@ -645,32 +598,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
-
-Need help? Here's how to get support:
-
-- 📧 **Email:** support@bookit.com
-- 💬 **Discord:** [Join our community](https://discord.gg/bookit)
-- 🐛 **Issues:** [GitHub Issues](https://github.com/yourusername/bookit/issues)
-- 📖 **Documentation:** [Wiki](https://github.com/yourusername/bookit/wiki)
-
----
-
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/bookit?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/bookit?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/bookit)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/bookit)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/bookit)
-
----
-
 <div align="center">
   
   ### ⭐ Star this repo if you find it helpful!
   
-  **Made with ❤️ by the BookIt Team**
+  **Made with ❤️ by Brijesh Patel**
   
   [Back to Top](#-bookit)
   
